@@ -1,0 +1,127 @@
+
+/*Navbar section start form here*/
+
+ 
+.navbar{
+
+    background: #AD6C70;
+   
+  }
+  .nav-item{
+  
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: serif;
+    padding: 0 10px;
+    
+  
+  }
+  .nav-item:hover{
+  
+    background: black;
+    border-radius: 4px;
+    color: #fff !important;
+  }
+  .nav-link{
+  
+    color: #fff !important;
+  }
+  .navbar a{
+  
+    color: #fff !important;
+  }
+
+/*Navbar section end here*/
+
+
+/*footer section start from here*/
+
+#footer{
+
+    padding: 100px 0 20px 0;
+    background: #9115FE;
+  }
+  .footer{
+  
+    text-align: center;
+    color: #fff;
+  }
+  .footer i{
+  
+    margin-bottom: 0 !important;
+    font-size: 40px;
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  .footerOne h3{
+  
+    margin-top: 0 !important;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    color: #fff;
+    
+  }
+  .footerOne p{
+  
+      line-height: 2;
+      font-size: 17px;
+  
+  }
+  .lastFooter{
+  
+    padding: 20px 0 10px 0;
+    text-align: center;
+  
+  }
+  .lastFooter p{
+  
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .lastFooter span{
+  
+    color: #FF0101;
+    font-size: 30px ;
+    vertical-align: middle;
+    margin-left: 13px;
+  }
+  /*footer section start from here*/
+
+
+/*media query section start from here*/
+
+@media (max-width:992px){
+   
+    .navbar{
+  
+      text-align: center;
+    }
+    .navbar-light .navbar-toggler {
+      border: none;
+      outline: none;
+  }
+  
+  }
+  
+  @media (max-width:768px){
+  
+    .footer{
+  
+      margin-top: 50px;
+    }
+  }
+  
+  @media (max-width:576px){
+  
+    .footer{
+  
+      margin-top: 50px;
+    }
+  }
+
+/*media query section end here*/
